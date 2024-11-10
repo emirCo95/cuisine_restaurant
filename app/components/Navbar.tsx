@@ -28,7 +28,7 @@ const Navbar = () => {
       </div>
       <div className="h-full">
         <Image
-          className="h-full w-[150px]"
+          className="h-[150px] w-[150px] 2xl:h-[200px] 2xl:w-[200px]"
           src="/logo.png"
           alt="logo"
           width={500}
