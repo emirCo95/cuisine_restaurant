@@ -5,7 +5,7 @@ import { marvel } from '../ui/fonts';
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[20vh] flex justify-center items-center p-5">
+    <nav className="bg-white z-20 w-full h-[20vh] flex justify-center items-center p-5">
       <div className="w-[25%]">
         <ul className="flex justify-between md:justify-evenly items-center pr-5 gap-5">
           <li>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <li>
             <Link
               className={`${marvel.className} antialiased text-xl md:text-2xl hover:underline`}
-              href="/"
+              href="#wine"
             >
               Wine
             </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <li>
             <Link
               className={`${marvel.className} antialiased text-xl md:text-2xl hover:underline`}
-              href="/"
+              href="#catering"
             >
               Catering
             </Link>
