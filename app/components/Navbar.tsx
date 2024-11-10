@@ -19,7 +19,7 @@ const Navbar = () => {
           <li>
             <Link
               className={`${marvel.className} antialiased text-xl md:text-2xl hover:underline`}
-              href="/"
+              href="#menu"
             >
               Menu
             </Link>
