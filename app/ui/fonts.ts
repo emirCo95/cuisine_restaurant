@@ -1,3 +1,3 @@
 import { Marvel } from 'next/font/google';
 
-export const marvel = Marvel({ weight: '400' });
+export const marvel = Marvel({ subsets: ['latin'], weight: '400' });
